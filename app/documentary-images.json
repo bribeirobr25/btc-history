@@ -1,0 +1,90 @@
+{
+  "0": {
+    "id": "a-proposal-not-a-promise",
+    "src": "/assets/documentary/whitepaper.png",
+    "label": "ORIGINAL DOCUMENT · ENLARGED DETAIL",
+    "caption": "Bitcoin whitepaper · Satoshi Nakamoto · 2008",
+    "note": "Enlarged detail of page one, emphasizing the title and author. The full original page is available via View image.",
+    "credit": "Satoshi Nakamoto",
+    "page": "https://bitcoin.org/bitcoin.pdf",
+    "kind": "document"
+  },
+  "14": {
+    "id": "satoshi-stepback",
+    "src": "/assets/documentary/satoshi-bitcoincom.jpg",
+    "label": "LATER ARTWORK · NOT A 2011 PHOTOGRAPH",
+    "caption": "Lugano · a monument to an absent creator",
+    "note": "Sculpture by Valentina Picozzi, unveiled in 2024. This later photograph illustrates the creator’s absence; it is not a record of the 2011 departure.",
+    "credit": "Image source: Bitcoin.com News",
+    "page": "https://static.news.bitcoin.com/wp-content/uploads/2024/10/satttststst.jpg",
+    "kind": "landscape"
+  },
+  "6": {
+    "id": "specialised-machines-enter-the-story",
+    "src": "/assets/historical/avalon.jpg",
+    "label": "HISTORICAL EQUIPMENT PHOTOGRAPH",
+    "caption": "Early Avalon ASIC · 2013 source photograph",
+    "note": "Uploaded in September 2013. Equipment illustration, not a photograph of the January delivery.",
+    "credit": "N. G. Zhang",
+    "page": "https://commons.wikimedia.org/wiki/File:Avalon-An_ASIC_base_bitcoin_machine.jpg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "landscape"
+  },
+  "8": {
+    "id": "keys-get-a-separate-device",
+    "src": "/assets/documentary/trezor-2014.jpg",
+    "label": "HISTORICAL PRODUCT PHOTOGRAPH",
+    "caption": "First Trezor hardware wallet · 2014 upload",
+    "note": "Original photograph retained; displayed without retouching or generative reconstruction.",
+    "credit": "Ladislav Mecir",
+    "page": "https://commons.wikimedia.org/wiki/File:10elqpi.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "landscape"
+  },
+  "4": {
+    "id": "a-national-experiment-begins",
+    "src": "/assets/documentary/el-salvador-athena-2021.jpg",
+    "label": "CONTEXT PHOTOGRAPH · ATHENA BITCOIN ATM",
+    "caption": "El Salvador · Athena Bitcoin ATM",
+    "note": "Athena Bitcoin ATM photograph supplied by Diario El Salvador in its June 2021 image archive. Used as context for the national experiment; this is not a Chivo machine or a photograph of the September launch.",
+    "credit": "Image source: Diario El Salvador",
+    "page": "https://diarioelsalvador.com/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-24-at-11.53.54-AM-1-682x1024.jpeg",
+    "kind": "equipment"
+  },
+  "101": {
+    "id": "a-marketplace-is-shut-down",
+    "src": "/assets/documentary/silk-road-seized-2013.jpg",
+    "label": "ORIGINAL SEIZURE NOTICE · 2013",
+    "caption": "Silk Road · the original seizure notice · 2013",
+    "note": "FBI notice placed on the original Silk Road site in October 2013. The display emphasizes the seizure headline. This is not the 2014 Silk Road 2.0 notice.",
+    "credit": "Federal Bureau of Investigation",
+    "page": "https://commons.wikimedia.org/wiki/File:Silk_Road_Seized.jpg",
+    "license": "Public domain in the United States",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FBI",
+    "kind": "notice"
+  },
+  "100": {
+    "id": "an-open-network-meets-an-illegal-market",
+    "src": "/assets/documentary/ulbricht-laptop-2020.jpg",
+    "label": "HISTORICAL OBJECT · PHOTOGRAPHED IN 2020",
+    "caption": "Ross Ulbricht’s laptop · FBI collection",
+    "note": "FBI photograph dated 15 October 2020 of the laptop seized in 2013. The object provides context for the 2011–2013 marketplace; this is not a photograph taken in 2011.",
+    "credit": "Federal Bureau of Investigation",
+    "page": "https://commons.wikimedia.org/wiki/File:November_2020_Ross_William_Ulbricht's_Laptop_(50586804768).jpg",
+    "license": "Public domain in the United States",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-FBI",
+    "kind": "landscape"
+  },
+  "190": {
+    "id": "a-familiar-wrapper-arrives",
+    "src": "/assets/documentary/etf-order-2024.png",
+    "label": "ORIGINAL APPROVAL ORDER · ENLARGED DETAIL",
+    "caption": "SEC approval order · 10 January 2024",
+    "note": "Enlarged title and date from the SEC order published in the Federal Register on 17 January 2024. The order is dated 10 January. The original page remains available; no lettering was generated.",
+    "credit": "SEC / Federal Register / U.S. Government Publishing Office",
+    "page": "https://www.govinfo.gov/content/pkg/FR-2024-01-17/pdf/2024-00743.pdf",
+    "kind": "order"
+  }
+}

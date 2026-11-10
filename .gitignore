@@ -1,0 +1,40 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+# OS/editor files and personal work areas
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+.private/
+.codex/
+.agents/
+# Archives, internal screenshots and local audits
+*.zip
+*.tar
+*.gz
+qa/
+qa-*/
+.audit/
+
+# Additional local authentication material
+.aws/
+.ssh/
+.netrc
+id_rsa
+id_ed25519

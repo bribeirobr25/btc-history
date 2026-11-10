@@ -1,0 +1,1103 @@
+{
+  "176": {
+    "kind": "return",
+    "title": "Assets return to creditors",
+    "labels": [
+      "Mt. Gox|trustee",
+      "Eligible|creditors"
+    ],
+    "note": "Repayment begins · not every claim is complete"
+  },
+  "177": {
+    "kind": "boundary",
+    "title": "A failure at the custody boundary",
+    "labels": [
+      "Exchange custody",
+      "Signing|controls",
+      "Assets on|other networks"
+    ],
+    "note": "The incident is not a failure of Bitcoin consensus"
+  },
+  "191": {
+    "kind": "supply",
+    "title": "Most issuance is already behind us",
+    "labels": [],
+    "note": "Cumulative issuance · not a price chart"
+  },
+  "25": {
+    "kind": "end",
+    "title": "New issuance ends. The record continues.",
+    "labels": [],
+    "note": "Around 2140 under current rules · timing is approximate"
+  },
+  "162": {
+    "kind": "process",
+    "title": "A procedural step is not a final law",
+    "labels": [
+      "Procedural|vote",
+      "Further|legislation",
+      "Final|enactment"
+    ],
+    "note": "Later stages are not implied to be complete"
+  },
+  "153": {
+    "kind": "record",
+    "title": "A guilty plea brings obligations",
+    "labels": [
+      "EXCHANGE CASE",
+      "Guilty plea",
+      "Penalties · oversight"
+    ],
+    "note": "A legal outcome · not an endorsement"
+  },
+  "170": {
+    "kind": "record",
+    "title": "A release can record a decision to wait",
+    "labels": [
+      "RELEASE NOTES",
+      "Change deferred",
+      "Current behavior stays"
+    ],
+    "note": "Software maintenance · no automatic rule change"
+  },
+  "161": {
+    "kind": "process",
+    "title": "The transition ends; requirements remain",
+    "labels": [
+      "Transition",
+      "Deadline",
+      "Full|requirements"
+    ],
+    "note": "End of a transition · not repeal of the framework"
+  },
+  "164": {
+    "kind": "process",
+    "title": "Repairing a software rule",
+    "labels": [
+      "Invalid|value",
+      "Rule|repair",
+      "Valid|record"
+    ],
+    "note": "The correction is in validation, not a physical device"
+  },
+  "120": {
+    "kind": "pool",
+    "title": "Miners combine work",
+    "labels": [
+      "POOL",
+      "Shared work"
+    ],
+    "note": "A pool coordinates mining · it does not own Bitcoin"
+  },
+  "125": {
+    "kind": "boundary",
+    "title": "A wallet without the full chain",
+    "labels": [
+      "Light client",
+      "Wallet|software",
+      "Remote|servers"
+    ],
+    "note": "Less local storage comes with different trust assumptions",
+    "detail": "THE FULL CHAIN IS ELSEWHERE"
+  },
+  "126": {
+    "kind": "tree",
+    "title": "One seed. A family of keys.",
+    "labels": [
+      "Seed",
+      "Key A",
+      "Key B",
+      "Key C"
+    ],
+    "note": "Illustrative derivation · no usable secrets"
+  },
+  "165": {
+    "kind": "signature",
+    "title": "An address commits to a script",
+    "labels": [
+      "Spending script",
+      "Commitment",
+      "Reveal|when spent"
+    ],
+    "note": "The script is checked when the output is spent"
+  },
+  "166": {
+    "kind": "fork",
+    "title": "Two versions temporarily disagree",
+    "labels": [
+      "Shared past",
+      "Version A",
+      "Version B"
+    ],
+    "note": "A validation difference · not two physical machines"
+  },
+  "3": {
+    "kind": "joint",
+    "title": "Several participants. One transaction.",
+    "labels": [
+      "Inputs",
+      "Joint transaction",
+      "Outputs"
+    ],
+    "note": "Visible transfers do not always identify their owners"
+  },
+  "122": {
+    "kind": "pool",
+    "title": "Concentration is not ownership",
+    "labels": [
+      "ONE POOL",
+      "Many miners"
+    ],
+    "note": "A concentration of mining work · not ownership of the rules"
+  },
+  "188": {
+    "kind": "channel",
+    "title": "A proposal for payment channels",
+    "labels": [
+      "Open a channel",
+      "Local updates",
+      "Settle on-chain"
+    ],
+    "note": "Proposal stage · not a claim of universal adoption"
+  },
+  "172": {
+    "kind": "signature",
+    "title": "Signalling is not verification",
+    "labels": [
+      "Signal support",
+      "Check signatures",
+      "Different|checks"
+    ],
+    "note": "Nodes still need to validate what they accept"
+  },
+  "167": {
+    "kind": "clock",
+    "title": "A condition with an absolute deadline",
+    "labels": [
+      "Spend after|the deadline",
+      "Absolute time or block height"
+    ],
+    "note": "A spending rule · not a hardware timer"
+  },
+  "184": {
+    "kind": "flow",
+    "title": "An agreement is not activation",
+    "labels": [
+      "Participants|agree",
+      "Nodes choose|software"
+    ],
+    "note": "Coordination does not automatically change consensus"
+  },
+  "128": {
+    "kind": "signature",
+    "title": "A pending transaction can be replaced",
+    "labels": [
+      "Earlier version",
+      "Higher-fee version",
+      "Pending|transaction"
+    ],
+    "note": "Replacement concerns unconfirmed transactions"
+  },
+  "12": {
+    "kind": "tree",
+    "title": "No single participant owns the rules",
+    "labels": [
+      "Proposal",
+      "Developers",
+      "Node users",
+      "Other users"
+    ],
+    "note": "Independent choices shape adoption"
+  },
+  "185": {
+    "kind": "fork",
+    "title": "A planned step is suspended",
+    "labels": [
+      "Shared chain",
+      "Existing rules",
+      "Planned step|suspended"
+    ],
+    "note": "The planned change stops · the existing network continues"
+  },
+  "112": {
+    "kind": "fund",
+    "title": "A contract offers price exposure",
+    "labels": [
+      "Investor",
+      "Futures|contract",
+      "Expiry"
+    ],
+    "note": "A derivative is not direct possession of bitcoin",
+    "detail": "CME · FUTURES"
+  },
+  "168": {
+    "kind": "process",
+    "title": "A validation bug is repaired",
+    "labels": [
+      "Bug|identified",
+      "Patch|released",
+      "Software|updated"
+    ],
+    "note": "Software maintenance protects the shared record"
+  },
+  "129": {
+    "kind": "signature",
+    "title": "A transaction collects signatures",
+    "labels": [
+      "Unsigned details",
+      "Partial signatures",
+      "Ready for|broadcast"
+    ],
+    "note": "Different devices can contribute without sharing keys"
+  },
+  "130": {
+    "kind": "tree",
+    "title": "A spending policy can be inspected",
+    "labels": [
+      "Policy",
+      "Key condition",
+      "Time condition",
+      "Alternative"
+    ],
+    "note": "A readable policy tree · not a special chip"
+  },
+  "113": {
+    "kind": "boundary",
+    "title": "A balance inside an account",
+    "labels": [
+      "Custodial service",
+      "Customer|account",
+      "Provider|custody"
+    ],
+    "note": "An account balance is different from holding your own keys",
+    "detail": "ACCESS THROUGH AN INTERMEDIARY"
+  },
+  "24": {
+    "kind": "fund",
+    "title": "Canada reaches the spot-fund stage",
+    "labels": [
+      "Fund holder",
+      "Spot fund",
+      "BTC custody"
+    ],
+    "note": "A fund share is not a private key",
+    "detail": "CANADA · 2021"
+  },
+  "189": {
+    "kind": "fund",
+    "title": "The fund holds futures exposure",
+    "labels": [
+      "Fund holder",
+      "Futures ETF",
+      "Contracts"
+    ],
+    "note": "Contract exposure differs from holding spot bitcoin",
+    "detail": "U.S. · FUTURES"
+  },
+  "114": {
+    "kind": "tree",
+    "title": "Obligations can transmit a crisis",
+    "labels": [
+      "Intermediary",
+      "Lender",
+      "Borrower",
+      "Customer"
+    ],
+    "note": "Failures of companies are distinct from protocol rules"
+  },
+  "104": {
+    "kind": "process",
+    "title": "Recovery has more than one stage",
+    "labels": [
+      "Trace|assets",
+      "Legal|seizure",
+      "Custody|of assets"
+    ],
+    "note": "Finding funds is not the same as reimbursing every victim"
+  },
+  "115": {
+    "kind": "flow",
+    "title": "A reserve is used to defend another asset",
+    "labels": [
+      "Bitcoin|reserves",
+      "Stablecoin|defense"
+    ],
+    "note": "Reserve use does not change Bitcoin issuance"
+  },
+  "174": {
+    "kind": "flow",
+    "title": "Withdrawals become legal claims",
+    "labels": [
+      "Withdrawal|blocked",
+      "Bankruptcy|claim"
+    ],
+    "note": "Customers face a legal recovery process"
+  },
+  "169": {
+    "kind": "inscription",
+    "title": "Data competes for block space",
+    "labels": [
+      "Transaction",
+      "Data",
+      "Block"
+    ],
+    "note": "A conceptual view · not a literal block layout"
+  },
+  "105": {
+    "kind": "tree",
+    "title": "One public contact. Separate destinations.",
+    "labels": [
+      "Public contact",
+      "Destination A",
+      "Destination B",
+      "Destination C"
+    ],
+    "note": "Conceptual derivation · not a visible on-chain identity link"
+  },
+  "116": {
+    "kind": "process",
+    "title": "A court sends a decision back for review",
+    "labels": [
+      "Court|decision",
+      "Regulatory|review",
+      "Later|outcome"
+    ],
+    "note": "Judicial review is not itself fund approval"
+  },
+  "106": {
+    "kind": "channel",
+    "title": "Protected transport. A public record.",
+    "labels": [
+      "Encrypted peer link",
+      "Message transport",
+      "Public ledger stays public"
+    ],
+    "note": "Transport privacy does not hide the blockchain"
+  },
+  "190": {
+    "kind": "fund",
+    "title": "A share is not a private key",
+    "labels": [
+      "Shareholder",
+      "U.S. spot fund",
+      "BTC custodian"
+    ],
+    "note": "The fund structure separates ownership and custody",
+    "detail": "U.S. · SPOT ETP"
+  },
+  "107": {
+    "kind": "record",
+    "title": "Privacy software meets criminal law",
+    "labels": [
+      "LEGAL DISPUTE",
+      "Allegations · evidence",
+      "Court proceedings"
+    ],
+    "note": "A dispute must not be illustrated as a predetermined verdict"
+  },
+  "118": {
+    "kind": "signature",
+    "title": "The fund can exchange assets and shares",
+    "labels": [
+      "Authorized party",
+      "Assets in kind",
+      "Fund|shares"
+    ],
+    "note": "Creation and redemption are not direct access for every investor"
+  },
+  "178": {
+    "kind": "flow",
+    "title": "Moving a wallet can introduce risk",
+    "labels": [
+      "Existing|wallet",
+      "Migrated|wallet"
+    ],
+    "note": "A software migration problem · not a broken blockchain"
+  },
+  "186": {
+    "kind": "fork",
+    "title": "A proposal does not become a shared rule",
+    "labels": [
+      "Existing rules",
+      "Proposal users",
+      "Other nodes"
+    ],
+    "note": "Divergent adoption is not universal activation"
+  },
+  "36": {
+    "kind": "review",
+    "title": "Proposed cleanup needs review",
+    "labels": [
+      "Time",
+      "Cost",
+      "Validation"
+    ],
+    "note": "Proposal · a specification is not activation"
+  },
+  "28": {
+    "kind": "signature",
+    "title": "A signature can check supplied data",
+    "labels": [
+      "Message",
+      "Signature",
+      "Public key|verification"
+    ],
+    "note": "Proposal · not an active rule"
+  },
+  "35": {
+    "kind": "signature",
+    "title": "Compatibility matters when reusing an update",
+    "labels": [
+      "Compatible output A",
+      "Compatible output B",
+      "Reusable|update"
+    ],
+    "note": "Proposal · not unrestricted signature reuse"
+  },
+  "37": {
+    "kind": "fork",
+    "title": "A proposed script-only spending path",
+    "labels": [
+      "Spending",
+      "Key path|removed",
+      "Script path"
+    ],
+    "note": "Proposal · not complete quantum protection"
+  },
+  "131": {
+    "kind": "halving",
+    "title": "Half the new subsidy, not half the existing coins",
+    "labels": [
+      "50",
+      "25"
+    ],
+    "note": "Scheduled issuance · not a price forecast"
+  },
+  "132": {
+    "kind": "halving",
+    "title": "Half the new subsidy, not half the existing coins",
+    "labels": [
+      "25",
+      "12.5"
+    ],
+    "note": "Scheduled issuance · not a price forecast"
+  },
+  "133": {
+    "kind": "halving",
+    "title": "Half the new subsidy, not half the existing coins",
+    "labels": [
+      "12.5",
+      "6.25"
+    ],
+    "note": "Scheduled issuance · not a price forecast"
+  },
+  "134": {
+    "kind": "halving",
+    "title": "Half the new subsidy, not half the existing coins",
+    "labels": [
+      "6.25",
+      "3.125"
+    ],
+    "note": "Scheduled issuance · not a price forecast"
+  },
+  "26": {
+    "kind": "halving",
+    "title": "Half the new subsidy, not half the existing coins",
+    "labels": [
+      "3.125",
+      "1.5625"
+    ],
+    "note": "Around 2028 · current rules · date is approximate"
+  },
+  "17": {
+    "kind": "receipt",
+    "title": "Someone puts a quote on the page",
+    "labels": [
+      "QUOTED RATE",
+      "An asking price",
+      "A willing counterparty"
+    ],
+    "note": "A quotation is not a liquid market"
+  },
+  "110": {
+    "kind": "signature",
+    "title": "An exchange matches two sides",
+    "labels": [
+      "Buy order",
+      "Sell order",
+      "Matched|trade"
+    ],
+    "note": "A conceptual order match · no invented price data"
+  },
+  "163": {
+    "kind": "computer",
+    "title": "An ordinary computer could participate",
+    "labels": [
+      "Computer",
+      "Software",
+      "Mining"
+    ],
+    "note": "Editorial illustration of the era · not an exact product"
+  },
+  "180": {
+    "kind": "forum",
+    "title": "A symbol becomes shared visual language",
+    "labels": [
+      "OPEN IDENTITY",
+      "₿",
+      "A symbol anyone can use"
+    ],
+    "note": "Editorial symbol · not a facsimile of the original logo"
+  },
+  "100": {
+    "kind": "checkout",
+    "title": "An open network reaches an illegal marketplace",
+    "labels": [
+      "Silk Road",
+      "Marketplace listings",
+      "Payments on an open network"
+    ],
+    "note": "Editorial reconstruction · not an original website capture"
+  },
+  "111": {
+    "kind": "receipt",
+    "title": "A price becomes a headline",
+    "labels": [
+      "PARITY",
+      "1 BTC",
+      "US$1"
+    ],
+    "note": "A historical milestone · not a lasting exchange rate"
+  },
+  "181": {
+    "kind": "route",
+    "title": "Donations take another route",
+    "labels": [
+      "Donor",
+      "Blocked|banking route",
+      "Bitcoin|donation"
+    ],
+    "note": "WikiLeaks · an alternative route with its own constraints"
+  },
+  "187": {
+    "kind": "boundary",
+    "title": "An organization cannot own the rules",
+    "labels": [
+      "Independent participants",
+      "Foundation|organization",
+      "Bitcoin|nodes"
+    ],
+    "note": "The foundation is not the protocol",
+    "detail": "COORDINATION ≠ CONTROL"
+  },
+  "135": {
+    "kind": "checkout",
+    "title": "Publishing gains another payment option",
+    "labels": [
+      "Publishing",
+      "Bitcoin payment",
+      "Access through a checkout"
+    ],
+    "note": "Editorial reconstruction · not an original WordPress screen"
+  },
+  "141": {
+    "kind": "license",
+    "title": "Rules apply at the service boundary",
+    "labels": [
+      "U.S. FinCEN",
+      "Service providers",
+      "Registration duties"
+    ],
+    "note": "Regulation of intermediaries · not a license for the protocol"
+  },
+  "171": {
+    "kind": "route",
+    "title": "An old fraud can use a new unit",
+    "labels": [
+      "New|deposits",
+      "Promised|returns",
+      "Earlier|participants"
+    ],
+    "note": "Conceptual fraud mechanism · not a Bitcoin issuance model"
+  },
+  "127": {
+    "kind": "backup",
+    "title": "A backup becomes a set of words",
+    "labels": [
+      "Backup",
+      "Recovery",
+      "Words"
+    ],
+    "note": "Illustration only · never store a real seed on this website"
+  },
+  "101": {
+    "kind": "checkout",
+    "title": "The marketplace closes",
+    "labels": [
+      "Silk Road",
+      "MARKET CLOSED",
+      "Enforcement shuts the service"
+    ],
+    "note": "The shutdown of a market is not the shutdown of Bitcoin"
+  },
+  "142": {
+    "kind": "route",
+    "title": "A banking boundary changes",
+    "labels": [
+      "Customer",
+      "Restricted|banking link",
+      "Separate|Bitcoin network"
+    ],
+    "note": "China · the restriction concerns the banking relationship"
+  },
+  "182": {
+    "kind": "forum",
+    "title": "A typo enters the culture",
+    "labels": [
+      "FORUM CULTURE",
+      "HODL",
+      "A misspelling becomes a shared word"
+    ],
+    "note": "Editorial typography · not a quotation of a complete post"
+  },
+  "143": {
+    "kind": "receipt",
+    "title": "Spending creates a record",
+    "labels": [
+      "TAX RECORD",
+      "Acquisition cost",
+      "Disposal value"
+    ],
+    "note": "Conceptual fields · no invented tax calculation"
+  },
+  "144": {
+    "kind": "license",
+    "title": "A business license has a jurisdiction",
+    "labels": [
+      "New York",
+      "BitLicense",
+      "Service providers"
+    ],
+    "note": "Permission for a business · not endorsement of Bitcoin"
+  },
+  "145": {
+    "kind": "license",
+    "title": "An existing category meets a new asset",
+    "labels": [
+      "U.S. CFTC",
+      "Commodity classification",
+      "Existing legal powers"
+    ],
+    "note": "Classification is different from approval"
+  },
+  "146": {
+    "kind": "balance",
+    "title": "Tax treatment depends on the activity",
+    "labels": [
+      "Currency|exchange",
+      "Other taxable|activities",
+      "VAT treatment is a specific distinction"
+    ],
+    "note": "Not a universal exemption for every Bitcoin transaction"
+  },
+  "173": {
+    "kind": "boundary",
+    "title": "The breach is in custody",
+    "labels": [
+      "Exchange custody",
+      "Customer|claims",
+      "Compromised|access"
+    ],
+    "note": "An exchange incident · not a failure of Bitcoin consensus",
+    "detail": "A SERVICE HAS ITS OWN RISKS"
+  },
+  "147": {
+    "kind": "license",
+    "title": "Recognition comes with registration",
+    "labels": [
+      "Japan",
+      "Exchange registration",
+      "Service requirements"
+    ],
+    "note": "A framework for providers around the network"
+  },
+  "137": {
+    "kind": "checkout",
+    "title": "The merchant runs the processor",
+    "labels": [
+      "BTCPay Server",
+      "Merchant-owned server",
+      "Checkout → your own infrastructure"
+    ],
+    "note": "Self-hosted payments still require operation and maintenance"
+  },
+  "183": {
+    "kind": "channel",
+    "title": "A small payment becomes a relay",
+    "labels": [
+      "Participant A → B → C",
+      "Pass it onward",
+      "A public payment experiment"
+    ],
+    "note": "Lightning Torch · participation is not universal adoption"
+  },
+  "148": {
+    "kind": "signature",
+    "title": "Information follows a regulated transfer",
+    "labels": [
+      "Sending provider",
+      "Identity information",
+      "Receiving|provider"
+    ],
+    "note": "The information flow is distinct from the Bitcoin ledger"
+  },
+  "138": {
+    "kind": "route",
+    "title": "Access is constrained, even with alternatives",
+    "labels": [
+      "Donor",
+      "Blocked|bank account",
+      "Alternative|payment route"
+    ],
+    "note": "An alternative route does not remove every practical barrier"
+  },
+  "5": {
+    "kind": "balance",
+    "title": "A company adds Bitcoin to its balance sheet",
+    "labels": [
+      "Company assets",
+      "Bitcoin position",
+      "Custody arrangements can differ"
+    ],
+    "note": "Corporate ownership does not imply one custody model"
+  },
+  "102": {
+    "kind": "trace",
+    "title": "The public record leaves a trail",
+    "labels": [
+      "Transactions",
+      "Links",
+      "Investigation"
+    ],
+    "note": "Tracing transactions does not identify every person automatically"
+  },
+  "139": {
+    "kind": "checkout",
+    "title": "Acceptance changes over time",
+    "labels": [
+      "Company checkout",
+      "Accepted → paused",
+      "Payment policy can change"
+    ],
+    "note": "Tesla · a company decision, not a protocol rule"
+  },
+  "4": {
+    "kind": "national",
+    "title": "National policy meets everyday use",
+    "labels": [
+      "EL SALVADOR",
+      "Legal-tender policy",
+      "Adoption is a separate question"
+    ],
+    "note": "A national experiment · not a claim of global adoption"
+  },
+  "103": {
+    "kind": "process",
+    "title": "An incentive is only the first step",
+    "labels": [
+      "First|payment",
+      "Another|occasion",
+      "Repeat|use"
+    ],
+    "note": "A conceptual adoption journey · not measured user data"
+  },
+  "149": {
+    "kind": "national",
+    "title": "A national decision is reversed",
+    "labels": [
+      "CENTRAL AFRICA",
+      "Legal-tender decision",
+      "Reversal"
+    ],
+    "note": "Central African Republic · a specific national policy change"
+  },
+  "140": {
+    "kind": "route",
+    "title": "Civilian support crosses borders",
+    "labels": [
+      "Donor",
+      "Traditional|payment route",
+      "Bitcoin|donation"
+    ],
+    "note": "Ukraine aid · routes and conversion still matter"
+  },
+  "150": {
+    "kind": "law",
+    "title": "Brazil creates a framework",
+    "labels": [
+      "BRAZIL",
+      "Service providers",
+      "Legal framework"
+    ],
+    "note": "The law is distinct from later supervision"
+  },
+  "151": {
+    "kind": "law",
+    "title": "Europe adopts shared rules",
+    "labels": [
+      "MiCA",
+      "Common framework",
+      "Adoption"
+    ],
+    "note": "Adoption and application are different stages"
+  },
+  "152": {
+    "kind": "signature",
+    "title": "A supervisor is designated",
+    "labels": [
+      "Brazilian framework",
+      "Designated authority",
+      "Provider|supervision"
+    ],
+    "note": "Designation of responsibility · not a new Bitcoin operator"
+  },
+  "154": {
+    "kind": "record",
+    "title": "An identity claim faces evidence",
+    "labels": [
+      "IDENTITY CLAIM",
+      "Evidence examined",
+      "Court decision"
+    ],
+    "note": "COPA and Wright · a legal record, not a generated portrait"
+  },
+  "155": {
+    "kind": "process",
+    "title": "Seized assets follow a legal process",
+    "labels": [
+      "Legal|custody",
+      "Authorized|sale",
+      "Assets|sold"
+    ],
+    "note": "Germany · a disposal process, not a retail delivery"
+  },
+  "156": {
+    "kind": "law",
+    "title": "The framework enters application",
+    "labels": [
+      "MiCA",
+      "Requirements apply",
+      "Implementation"
+    ],
+    "note": "A later stage than legislative adoption"
+  },
+  "117": {
+    "kind": "receipt",
+    "title": "Six figures become a public symbol",
+    "labels": [
+      "PRICE MILESTONE",
+      "US$100,000",
+      "A dated market threshold"
+    ],
+    "note": "A historical price milestone · not a forecast"
+  },
+  "108": {
+    "kind": "national",
+    "title": "The terms of acceptance change",
+    "labels": [
+      "EL SALVADOR",
+      "Voluntary acceptance",
+      "Policy revised"
+    ],
+    "note": "A change in the legal framework"
+  },
+  "158": {
+    "kind": "license",
+    "title": "The framework reaches supervision",
+    "labels": [
+      "Brazil",
+      "Provider supervision",
+      "Operational requirements"
+    ],
+    "note": "A supervisory stage, distinct from the original law"
+  },
+  "159": {
+    "kind": "signature",
+    "title": "Reporting connects providers and authorities",
+    "labels": [
+      "Provider records",
+      "Tax information",
+      "Reporting|authority"
+    ],
+    "note": "Illustrative data flow · no real personal information"
+  },
+  "160": {
+    "kind": "law",
+    "title": "Agencies explain existing law",
+    "labels": [
+      "U.S. AGENCIES",
+      "Interpretation",
+      "Existing framework"
+    ],
+    "note": "An interpretation is distinct from a newly enacted statute"
+  },
+  "109": {
+    "kind": "national",
+    "title": "The experiment keeps changing",
+    "labels": [
+      "EL SALVADOR",
+      "Policy and practice",
+      "Still evolving"
+    ],
+    "note": "Formal rules and everyday outcomes can differ"
+  },
+  "175": {
+    "kind": "ledger",
+    "title": "A balance is different from its backing",
+    "labels": [
+      "Account",
+      "Backing",
+      "Claims"
+    ],
+    "note": "Conceptual comparison · no invented forensic amounts"
+  },
+  "179": {
+    "kind": "security",
+    "title": "Custody depends on authorization",
+    "labels": [
+      "Signing",
+      "Controls",
+      "Transfer"
+    ],
+    "note": "Conceptual device · not the equipment from a specific incident"
+  },
+  "16": {
+    "kind": "forum",
+    "title": "An idea gets a place on the web",
+    "labels": [
+      "18 AUGUST 2008",
+      "bitcoin.org",
+      "A domain before the network"
+    ],
+    "note": "Editorial illustration · not an original browser capture"
+  },
+  "20": {
+    "kind": "record",
+    "title": "The first block anchors a shared record",
+    "labels": [
+      "BLOCK 0",
+      "3 January 2009",
+      "History begins here"
+    ],
+    "note": "The embedded historical message is explained in the story"
+  },
+  "18": {
+    "kind": "process",
+    "title": "A proposal becomes a public record",
+    "labels": [
+      "Publish|proposal",
+      "Discuss|and review",
+      "Independent|adoption"
+    ],
+    "note": "Review coordinates people · it does not impose rules"
+  },
+  "21": {
+    "kind": "flow",
+    "title": "A payment between two people",
+    "labels": [
+      "Satoshi|10 BTC",
+      "Hal Finney|Block 170"
+    ],
+    "note": "The record changes · no physical coin travels"
+  },
+  "22": {
+    "kind": "channel",
+    "title": "Payments use another layer",
+    "labels": [
+      "A funded channel",
+      "Repeated updates",
+      "Settlement on-chain"
+    ],
+    "note": "Liquidity and monitoring still matter"
+  },
+  "23": {
+    "kind": "fork",
+    "title": "Reveal the condition you use",
+    "labels": [
+      "Spending",
+      "Key path",
+      "Script path"
+    ],
+    "note": "Taproot · two ways to satisfy a spending condition"
+  },
+  "32": {
+    "kind": "clock",
+    "title": "A waiting period starts from an earlier event",
+    "labels": [
+      "Spend after|relative age",
+      "Relative time or block age"
+    ],
+    "note": "CSV · different from an absolute deadline"
+  },
+  "33": {
+    "kind": "balance",
+    "title": "Relay policy and block rules are different",
+    "labels": [
+      "Local relay|policy",
+      "Consensus|validation",
+      "Nodes can use different relay policies"
+    ],
+    "note": "Not relayed does not mean invalid"
+  },
+  "34": {
+    "kind": "tree",
+    "title": "Transactions can depend on other transactions",
+    "labels": [
+      "Parent",
+      "Child A",
+      "Child B",
+      "Child C"
+    ],
+    "note": "A local waiting room · not one global mempool"
+  },
+  "27": {
+    "kind": "signature",
+    "title": "A spending template sets a condition",
+    "labels": [
+      "Committed template",
+      "Proposed spend",
+      "Match the|template"
+    ],
+    "note": "Proposal · no activation date"
+  },
+  "29": {
+    "kind": "flow",
+    "title": "Two pieces of data can become one",
+    "labels": [
+      "A + B",
+      "AB"
+    ],
+    "note": "Proposal · design is not adoption"
+  },
+  "30": {
+    "kind": "boundary",
+    "title": "Witness data is part of the transaction",
+    "labels": [
+      "One transaction",
+      "Base|data",
+      "Witness|data"
+    ],
+    "note": "Different weight accounting · not data moved off-chain",
+    "detail": "ONE TRANSACTION"
+  },
+  "31": {
+    "kind": "forum",
+    "title": "An address format helps detect errors",
+    "labels": [
+      "ADDRESS FORMAT",
+      "bc1…",
+      "Checksum detects typing errors"
+    ],
+    "note": "Example format · not a usable payment address"
+  }
+}

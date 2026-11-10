@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+node scripts/privacy-check.mjs --staged
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks git --staged --redact --no-banner
+else
+  echo 'Install gitleaks before committing; the secret scan is required.' >&2
+  exit 1
+fi

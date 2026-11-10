@@ -1,0 +1,6 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+const data=JSON.parse(readFileSync('app/timeline-data.json','utf8'));const src=new Map(data.sources.map(s=>[s.id,s]));
+let text=`# Bitcoin — The Human Story\n\nGenerated from app/timeline-data.json. Do not edit this export.\n\nReviewed: ${data.metadata.reviewedAt}\n\nHistorical reporting cutoff: ${data.metadata.cutoff}\n\n`;
+for(const kind of ['history','milestone','proposal']){const list=data.events.filter(e=>e.kind===kind);text+=`# ${kind==='history'?'Historical stories':kind==='milestone'?'Conditional future milestones':'Undated proposals'} (${list.length})\n\n`;for(const e of list){text+=`## ${e.date} — ${e.title}\n\nID: ${e.id} · ${e.evidenceStatus}\n\n${e.assumption?e.assumption+'\n\n':''}${e.summary}\n\n`;for(const [h,b] of e.sections)text+=`### ${h}\n\n${b}\n\n`;for(const id of e.sources){const s=src.get(id);if(!s)throw Error(`Unknown source ${id}`);text+=`- [${s.name}](${s.url})\n`;}for(const ph of e.photos)text+=`\nImage: ${ph.src} · ${ph.credit} · [${ph.license}](${ph.licenseUrl}) · [Record](${ph.page})\n${ph.note}\n`;text+='\n';}}
+const path='research/ENGLISH-CONTENT.md';if(process.argv.includes('--check')){if(readFileSync(path,'utf8')!==text)throw Error('English content export is stale. Run npm run sync.');}else writeFileSync(path,text);
+console.log('English export is synchronized.');

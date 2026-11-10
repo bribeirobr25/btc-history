@@ -1,0 +1,14 @@
+import data from './timeline-data.json';
+export const events=data.events;
+export type HistoryEvent=typeof events[number];
+export const eventSources=data.sources;
+export const historical=events.filter(e=>e.kind==='history');
+export const milestones=events.filter(e=>e.kind==='milestone');
+export const proposals=events.filter(e=>e.kind==='proposal');
+export const historicalJourney=historical.filter(e=>e.main);
+export const journey=events.filter(e=>e.main);
+export const topics=[...new Set(events.map(e=>e.topic))].sort();
+export const readingPaths=data.paths;
+export const reviewed=new Date(data.metadata.reviewedAt+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'});
+export const period=historical[0].year+'–'+data.metadata.cutoff.slice(0,4);
+export const statusLabel=(e:HistoryEvent)=>e.kind==='milestone'?'ESTIMATED · CURRENT RULES':e.kind==='proposal'?'PROPOSAL · NO ACTIVATION DATE':e.developing?'HISTORY · DEVELOPING':'HISTORICAL RECORD';

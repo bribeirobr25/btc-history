@@ -1,0 +1,7 @@
+/* The timeline is the entire page; its tools stay within the experience. */
+.timeline-only .history-cinema{min-height:100svh}
+.timeline-tools{display:flex;align-items:center;justify-content:flex-end;gap:20px;flex-wrap:wrap}
+.timeline-tools button{font:inherit;min-height:32px;text-align:left;text-decoration:underline}
+.timeline-tools .motion-control{display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+.timeline-only .future-jump{text-align:left;padding-top:0;padding-bottom:0}
+@media(max-width:600px){.timeline-only .cinema-toolbar>span:first-child{max-width:44%;line-height:1.5}.timeline-tools{gap:4px;flex-direction:column;align-items:flex-start}.timeline-meta>span{max-width:58%}}

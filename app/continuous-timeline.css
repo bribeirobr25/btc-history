@@ -1,0 +1,30 @@
+/* One continuous collection; period buttons jump, never filter. */
+.cinema-toolbar{gap:16px;flex-wrap:wrap}
+.period-navigation{display:flex;align-items:center;justify-content:center;gap:3px;padding:4px;border:1px solid rgba(40,47,41,.17);border-radius:30px;background:rgba(255,255,255,.32)}
+.cinema-toolbar .period-navigation button{border:0;background:transparent;border-radius:20px;padding:9px 12px;font-size:10px;letter-spacing:.02em;white-space:nowrap;transition:background .2s,color .2s}
+.cinema-toolbar .period-navigation button[aria-current="true"]{background:#263c34;color:#fff}
+.cinema-toolbar .period-navigation button:hover{background:rgba(38,60,52,.12)}
+.cinema-toolbar .period-navigation button[aria-current="true"]:hover{background:#263c34}
+.period-navigation button:focus-visible{outline:2px solid #263c34;outline-offset:3px}
+.history-cinema .cinema-object{transform:translate(-50%,-50%) translateX(calc(var(--offset)*min(23vw,315px))) translateZ(calc(var(--distance)*-110px)) rotateY(calc(var(--offset)*-10deg)) scale(calc(1 - min(var(--distance),3)*.1));transition:transform .65s cubic-bezier(.22,.61,.36,1),opacity .55s ease}
+.history-cinema .cinema-object:not(.is-current) .cinema-object-label{opacity:0}
+.history-cinema .cinema-object:not(.is-current):hover{opacity:.8!important}
+@media(max-width:1000px){
+ .cinema-toolbar{gap:8px}
+ .cinema-toolbar>span:first-child{font-size:9px}
+ .cinema-toolbar .period-navigation button{padding:8px 9px}
+}
+@media(max-width:760px){
+ .cinema-toolbar{display:flex;justify-content:space-between;gap:10px;padding-bottom:12px}
+ .period-navigation{order:3;flex-basis:100%;display:grid;grid-template-columns:repeat(5,1fr);gap:1px;padding:3px}
+ .cinema-toolbar .period-navigation button{font-size:9px;padding:9px 2px;justify-content:center}
+ .history-cinema .cinema-object{transform:translate(-50%,-50%) translateX(calc(var(--offset)*215px)) translateZ(calc(var(--distance)*-120px)) rotateY(calc(var(--offset)*-10deg)) scale(calc(1 - min(var(--distance),3)*.1))}
+}
+@media(prefers-reduced-motion:reduce){.history-cinema .cinema-object,.period-navigation button{transition:none!important}}
+.site.paused .cinema-object{transition:none!important}
+
+/* Keep nearby artwork, without colliding explanatory captions. */
+.history-cinema .cinema-object:not(.is-current) .editorial-caption,
+.history-cinema .cinema-object:not(.is-current) .artwork-note,
+.history-cinema .cinema-object:not(.is-current) figcaption{visibility:hidden}
+.history-cinema .is-dragging .cinema-object{transition:none}

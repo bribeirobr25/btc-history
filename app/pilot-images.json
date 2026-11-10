@@ -1,0 +1,74 @@
+{
+  "0": {
+    "id": "a-proposal-not-a-promise",
+    "src": "/assets/pilot/a-proposal-not-a-promise.png",
+    "scene": false,
+    "alt": "A proposal, not a promise. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "20": {
+    "id": "the-shared-record-begins",
+    "src": "/assets/pilot/the-shared-record-begins.png",
+    "scene": false,
+    "alt": "The shared record begins. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "163": {
+    "id": "cpu",
+    "src": "/assets/pilot/cpu.png",
+    "scene": false,
+    "alt": "An ordinary computer could join. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "3": {
+    "id": "coinjoin",
+    "src": "/assets/pilot/coinjoin.png",
+    "scene": false,
+    "alt": "Privacy becomes a coordination problem. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "127": {
+    "id": "bip39",
+    "src": "/assets/pilot/bip39.png",
+    "scene": false,
+    "alt": "A backup becomes a set of words. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "12": {
+    "id": "who-gets-to-change-the-rules",
+    "src": "/assets/pilot/who-gets-to-change-the-rules.png",
+    "scene": false,
+    "alt": "Who gets to change the rules? — AI-generated editorial illustration, not a historical photograph."
+  },
+  "4": {
+    "id": "a-national-experiment-begins",
+    "src": "/assets/pilot/a-national-experiment-begins.png",
+    "scene": true,
+    "alt": "A national experiment begins. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "19": {
+    "id": "pandemic-market-shock",
+    "src": "/assets/pilot/pandemic-market-shock.png",
+    "scene": true,
+    "alt": "An open network meets a global shock. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "190": {
+    "id": "a-familiar-wrapper-arrives",
+    "src": "/assets/pilot/a-familiar-wrapper-arrives.png",
+    "scene": false,
+    "alt": "A familiar wrapper arrives. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "134": {
+    "id": "the-fourth-halving",
+    "src": "/assets/pilot/the-fourth-halving.png",
+    "scene": false,
+    "alt": "The fourth halving. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "27": {
+    "id": "ctv",
+    "src": "/assets/pilot/ctv.png",
+    "scene": false,
+    "alt": "Spending can follow a template. — AI-generated editorial illustration, not a historical photograph."
+  },
+  "25": {
+    "id": "issuance-ends",
+    "src": "/assets/pilot/issuance-ends.png",
+    "scene": false,
+    "alt": "When new issuance ends. — AI-generated editorial illustration, not a historical photograph."
+  }
+}
