@@ -36,7 +36,14 @@ export function createStaticServer(directory) {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const server = createStaticServer(fileURLToPath(new URL('./dist/', import.meta.url)));
+  const directory = fileURLToPath(new URL('./dist/', import.meta.url));
+  try {
+    if (!(await stat(path.join(directory, 'index.html'))).isFile()) throw new Error('Missing build');
+  } catch {
+    console.error('The site has not been built. Run npm ci, then npm start.');
+    process.exit(1);
+  }
+  const server = createStaticServer(directory);
   const port = Number(process.env.PORT || 4173);
   server.on('error', error => {
     console.error(error.code === 'EADDRINUSE' ? `Port ${port} is busy. Try: PORT=4174 npm start` : 'Unable to start the local server.');

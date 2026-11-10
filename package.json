@@ -6,11 +6,12 @@
   "scripts": {
     "build": "npm run sync && node build.mjs",
     "start": "node serve.mjs",
-    "dev": "npm run build && npm start",
+    "dev": "npm start",
     "test": "node scripts/sync-content.mjs --check && node tests/content-check.mjs && node tests/visual-check.mjs && node tests/editorial-check.mjs && node tests/period-navigation-check.mjs && node tests/chronology-check.mjs && node tests/server-security-check.mjs",
     "sync": "node scripts/sync-content.mjs",
     "privacy:check": "node scripts/privacy-check.mjs",
-    "check": "npm run build && npm test && npm run privacy:check"
+    "check": "npm run build && npm test && npm run privacy:check",
+    "prestart": "npm run build"
   },
   "dependencies": {
     "react": "19.3.1",

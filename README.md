@@ -8,11 +8,12 @@ Requires Node.js 22 or newer and npm.
 
 ```sh
 npm ci
-npm run build
 npm start
 ```
 
-Open http://localhost:4173. To use another port: `PORT=4174 npm start`.
+`npm start` builds the site automatically before starting the server, including on a fresh clone.
+
+Open http://127.0.0.1:4173. To use another port: `PORT=4174 npm start`.
 The server listens on loopback only. This repository is a static website; it needs no account, API key, private key, database or environment file.
 
 ## Development and checks
